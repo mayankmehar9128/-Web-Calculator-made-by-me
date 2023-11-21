@@ -1,4 +1,5 @@
 let string = "";
+let newval = false;
 let buttons = document.querySelectorAll('.button');
 let operators = document.querySelectorAll('.operator')
 // console.log(buttons);
@@ -27,23 +28,8 @@ buttons.forEach(function (value) {
         if (e.target.innerHTML == '=') {
             string = eval(string);
             document.querySelector('input').value = string;
+            
         } 
-        // else if (singh.target.innerHTML == '/') {
-        //      opera_singh = ""
-        //     document.querySelector('input').value = opera_singh;
-        // }
-        // else if (singh.target.innerHTML == '*') {
-        //      opera_singh = ""
-        //     document.querySelector('input').value = opera_singh;
-        // }
-        // else if (singh.target.innerHTML == '+') {
-        //      opera_singh = ""
-        //     document.querySelector('input').value = opera_singh;
-        // }
-        // else if (singh.target.innerHTML == 'M+') {
-        //      opera_singh = ""
-        //     document.querySelector('input').value = opera_singh;
-        // }
 
         else if (e.target.innerHTML == 'C') {
             string = "";
@@ -54,9 +40,6 @@ buttons.forEach(function (value) {
             string = string + e.target.innerHTML;
             document.querySelector('input').value = string;
         }
-           
     })
 })
-
-
 
