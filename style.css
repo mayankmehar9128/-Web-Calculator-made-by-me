@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cal-nav {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    padding: 16px;
+    max-width: 208px;
+    margin: auto;
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    /* border-bottom-right-radius: 5px; */
+    border-bottom-width: 10px;
+    box-shadow: 5px 5px 10px
+}
+
+.display {
+    padding: 10px;
+}
+
+.input {
+    font-size: 15.5px;
+    height: 31px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* .row2-size .button {
+    width: 36px;   
+}
+
+.row3-size .button {
+    width: 36px;
+}
+
+.row4-size .button {
+    width: 36px;
+}
+
+.row5-size .button {
+    width: 43px;
+} */
+
+.button {
+    padding: 10px;
+    font-size: 15px;
+    max-width: 43px;
+    margin: 3px;
+    border-color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 45px;
+}
+
+.operator {
+    padding: 10px;
+    font-size: 15px;
+    max-width: 43px;
+    margin: 3px;
+    border-color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 45px;
+}
